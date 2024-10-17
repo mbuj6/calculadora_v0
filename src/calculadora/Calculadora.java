@@ -311,6 +311,7 @@ public class Calculadora {
 	void mostrarResultat(int resultat) {
 		setResultatString(Integer.toString(resultat));
 		valor1 = resultat;
+		
 		inicialitza_resultat = true;
 	}
 
